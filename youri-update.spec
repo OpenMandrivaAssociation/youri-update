@@ -11,6 +11,7 @@ Group:		Development/Other
 Source:		http://youri.zarb.or/download/%{name}-%{version}.tar.bz2
 Url:		http://youri.zarb.org
 BuildArch:	    noarch
+BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
 YOURI stands for "Youri Offers an Upload & Repository Infrastucture". It aims
