@@ -48,3 +48,30 @@ rm -rf %{buildroot}
 %config(noreplace) %{_sysconfdir}/youri
 %{_bindir}/youri-update
 %{_mandir}/man1/*
+
+
+%changelog
+* Wed Jul 21 2010 Thierry Vignaud <tv@mandriva.org> 0.1.1-5mdv2011.0
++ Revision: 556499
+- rebuild for new perl
+
+* Wed Sep 09 2009 Thierry Vignaud <tv@mandriva.org> 0.1.1-4mdv2010.0
++ Revision: 435374
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 0.1.1-3mdv2009.0
++ Revision: 243002
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Wed May 02 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.1.1-1mdv2008.0
++ Revision: 20752
+- Import youri-update
+
+
+
+* Wed May 02 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.1.1-1mdv2008.0
+- first mdv release
