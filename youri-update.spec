@@ -1,6 +1,6 @@
 %define name	youri-update
 %define version 0.1.1
-%define release %mkrel 5
+%define release 6
 
 Name:		%{name}
 Version:	%{version}
